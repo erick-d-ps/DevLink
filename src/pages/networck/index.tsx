@@ -6,7 +6,7 @@ import { db } from "../../services/firebaseConnection";
 import { setDoc, doc, getDoc } from "firebase/firestore";
 
 export function NetWorck() {
-  const [Faceboock, setFacebook] = useState("");
+  const [Facebook, setFacebook] = useState("");
   const [instagran, setInstagran] = useState("");
   const [youtub, setYoutub] = useState("");
 
@@ -15,7 +15,7 @@ export function NetWorck() {
       const docRef = doc(db, "social", "link");
       getDoc(docRef).then((snapshot) => {
         if (snapshot.data() !== undefined)
-          setFacebook(snapshot.data()?.Faceboock)
+          setFacebook(snapshot.data()?.Facebook)
           setInstagran(snapshot.data()?.instagran)
           setYoutub(snapshot.data()?.youtub)
       });
@@ -28,7 +28,7 @@ export function NetWorck() {
     e.preventDefault();
 
     setDoc(doc(db, "social", "link"), {
-      Faceboock: Faceboock,
+      Facebook: Facebook,
       instagran: instagran,
       youtub: youtub,
     })
@@ -48,12 +48,12 @@ export function NetWorck() {
 
       <form onSubmit={handlRegister} className="flex flex-col max-w-xl w-full">
         <label className="text-white font-medium mt-2 mb-2">
-          Link do Faceboock
+          Link do Facebook
         </label>
         <Input
           type="url"
-          placeholder="Digite a url do facevboock..."
-          value={Faceboock}
+          placeholder="Digite a url do facevbook..."
+          value={Facebook}
           onChange={(e) => setFacebook(e.target.value)}
         />
         <label className="text-white font-medium mt-2 mb-2">
