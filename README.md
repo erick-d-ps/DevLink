@@ -3,7 +3,7 @@
 
 ## **Objetivo**
 
-DevLink é uma aplicação projetada para fornecer uma experiência de navegação simplificada e eficiente. Seu objetivo principal é direcionar os usuários para links específicos de forma rápida e intuitiva. Veja a aplicação [DevLinks](https://cripto-dev-one.vercel.app/)."
+DevLink é uma aplicação projetada para fornecer uma experiência de navegação simplificada e eficiente. Seu objetivo principal é direcionar os usuários para links específicos de forma rápida e intuitiva. Veja a aplicação [DevLinks](https://dev-link-blush.vercel.app/)."
 
 ---
 ## **Público-Alvo**
