@@ -109,7 +109,7 @@ Influenciadores digitais, empreendedores e vendedores online que desejam promove
 
 1. Clone este repositório:
    ```bash
-   https://github.com/erick-d-ps/Cripto-Dev.git
+   https://github.com/erick-d-ps/DevLink.git
 
 2. Instale as dependências:
    ```bash
